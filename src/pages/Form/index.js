@@ -35,7 +35,7 @@ export default function Form() {
         }
 
         try {
-            const response = await api.post('users', data);
+            await api.post('users', data);
 
             alert('Cadastro efetuado com sucesso!');
 
@@ -85,7 +85,7 @@ export default function Form() {
                         type="radio" 
                         name='plan'
                         value='basic'
-                        onChange={handleChange} checked={plan.plan=="basic"}
+                        onChange={handleChange} checked={plan.plan === "basic"}
                     />
 
                     <label>Premium</label>
@@ -93,7 +93,7 @@ export default function Form() {
                         type="radio" 
                         name='plan'
                         value='premium'
-                        onChange={handleChange} checked={plan.plan=="premium"}
+                        onChange={handleChange} checked={plan.plan === "premium"}
                     />  
                 </div>
                 <button>Cadastrar</button>
