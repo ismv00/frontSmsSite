@@ -67,3 +67,138 @@ form textarea {
 .button:hover{
     filter: brightness(90%);
 }
+
+/*
+    -- RESPONSIVIDADE
+*/
+
+ @media (max-width: 414px) {
+    
+    .area-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10px;
+        line-height: 10px;
+    }
+
+    .area-text img {
+        width: 200px;
+    }
+    .area-text h2 {
+        font-size: 25px;
+    }
+
+    .area-input {
+        width: 100%;
+        margin: 40px;
+        margin-top: 5px;
+    }
+    .area-input input {
+        margin-bottom: 10px;
+    }
+    .area-input label {
+        font-size:20px;
+    }
+
+    .radio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button {
+        width: 100%;
+        font-size: 25px;
+    }
+        
+    
+ }
+
+ @media (max-width: 390px) {
+    
+    .area-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .area-text img {
+        width: 200px;
+    }
+    .area-text h2 {
+        font-size: 25px;
+    }
+
+    .area-input {
+        width: 100%;
+        margin: 20px;
+        margin-top: 5px;
+    }
+    .area-input input {
+        margin-bottom: 10px;
+    }
+    .area-input label {
+        font-size:20px;
+    }
+
+    .radio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button {
+        width: 100%;
+        font-size: 25px;
+    }
+        
+    
+ }
+
+ @media (max-width: 375px) {
+    
+    .area-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        line-height: 10px;
+    }
+
+    .area-text img {
+        width: 150px;
+    }
+    .area-text h2 {
+        font-size: 25px;
+    }
+
+    .area-input {
+        width: 100%;
+        margin: 20px;
+        margin-top: 0;
+    }
+    .area-input input {
+        margin-bottom: 10px;
+        height: 45px;
+    }
+    .area-input label {
+        font-size:18px;
+    }
+
+    .radio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+    }
+
+    button {
+        margin-top: 15px;
+        width: 100%;
+        font-size: 25px;
+    }
+        
+    
+ }
