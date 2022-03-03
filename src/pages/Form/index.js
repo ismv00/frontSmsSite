@@ -64,17 +64,20 @@ export default function Form() {
                 <input 
                     type="text" 
                     placeholder='Digite seu nome'
+                    required = 'Digite seu nome'
                     value={name}
                     onChange={e => setName(e.target.value)} />
                 <input 
                     type="email" 
                     placeholder='Escolha seu melhor e-mail'
+                    required ='Digite seu e-mail'
                     value={email}
                     onChange={e => setEmail(e.target.value)}
                 />
                 <input 
                     type="text" 
                     placeholder='Digite seu telefone'
+                    required ="Digite seu telefone"
                     value={phone}
                     onChange={ e => setPhone(e.target.value)}    
                 />  
