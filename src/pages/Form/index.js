@@ -54,9 +54,9 @@ export default function Form() {
     return (
         <div className='container'>
             <div className='area-text'>
-            <img src={logo} alt="Icone de um boneco com um balao de conversa" />
-            <h2>Welcome to SMS site</h2>
-            <p>Escolha seu plano e comece usar</p>
+                <img src={logo} alt="Icone de um boneco com um balao de conversa" />
+                <h2>Welcome to SMS site</h2>
+                <p>Escolha seu plano e comece usar</p>
             </div>
 
             <form onSubmit={handleUser} className='area-input'>
