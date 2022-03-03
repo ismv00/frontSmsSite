@@ -37,14 +37,13 @@ export default function Form() {
         try {
             await api.post('users', data);
 
-            alert('Cadastro efetuado com sucesso!');
+            navigate('/confirmation');
 
             setName('');
             setEmail('');
             setPhone('');
             setPlan('');
            
-            navigate('/confirmation')
             
         } catch (error) {
             alert('Erro ao efetuar o cadastro, tente novamente.')
