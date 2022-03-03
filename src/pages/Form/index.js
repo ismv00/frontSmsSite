@@ -48,8 +48,6 @@ export default function Form() {
             
         } catch (error) {
             alert('Erro ao efetuar o cadastro, tente novamente.')
-
-            navigate('/confirmation')
             
         }
 
