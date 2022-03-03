@@ -108,6 +108,7 @@ form textarea {
     }
 
     button {
+        margin-top: 15px;
         width: 100%;
         font-size: 25px;
     }
@@ -150,6 +151,7 @@ form textarea {
     }
 
     button {
+        margin-top: 15px;
         width: 100%;
         font-size: 25px;
     }
